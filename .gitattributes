@@ -1,0 +1,11 @@
+# Configuration for git attributes
+# Generated on 2026-11-10
+*.woff binary
+build/* linguist-vendored
+
+*.ts linguist-detectable
+public/index.html linguist-vendored
+
+* text=auto eol=lf
+*.md linguist-documentation
+yarn.lock linguist-generated
